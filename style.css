@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f9f8f9f9;
+    background-color: #f9f8f9;
 }
 
 header {
@@ -19,8 +19,12 @@ nav ul {
     justify-content: center;
 }
 nav ul li {
-    margin-left: 0 15px;
+  nav ul li 
+    margin-right: 15px;
+    margin-left: 0;
 }
+
+
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -33,7 +37,7 @@ nav ul li a {
     justify-content: space-between;
     margin: 20px 0;
     padding: 20px;
-    background-color: #f9f9f9; /* Fundo para diferenciar seções */
+    background-color: #f9f8f9; /* Fundo para diferenciar seções */
     border-radius: 8px;
   }
 
@@ -52,7 +56,8 @@ nav ul li a {
   }
   .reverse {
     flex-direction: row-reverse;
-  }
+}
+
 section h2{
     color:#00447C;
 }
@@ -65,4 +70,9 @@ footer {
     color: white;
     padding: 10px 0;
     margin-top: 20px 0;
+}
+
+#Sobre-mim {
+  color: #00447C;
+  align-items: center;
 }
